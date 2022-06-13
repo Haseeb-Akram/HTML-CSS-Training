@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <title>Dashboard | Admin Panel</title>
+</head> 
+    <body class="light">
+    <header>
+        <div class="search-icon">
+            <i class="fa-solid fa-house active-icon"></i>
+            <i class="fas fa-search secondary search-i"></i>
+        </div>
+        <div class="search-box">
+            <i class="fa-solid fa-house active-icon"></i>
+            <input type="search" placeholder="Search for transaction, item etc.">
+            <button class="active search-btn">Search</button>
+        </div>
+        <div> 
+            <i class="fab fa-facebook-messenger secondary"><span> *</span></i>
+            <i class="far fa-bell secondary"><span> *</span></i>
+            <img src="images/user.png" alt="User" width="20px" height="20px">
+        </div>
+    </header>
+    <main>
+    <aside>
+        <div>
+            <!-- <i class="fa-solid fa-house active-icon"></i> -->
+            <i class="fa-solid fa-th-large active-icon"></i>
+            <i class="fa-solid fa-shopping-cart secondary"></i>
+            <i class="fa-solid fa-file secondary"></i>
+            <i class="fa-solid fa-gear secondary"></i>
+        </div>
+        <div class="logout">
+            <input type="checkbox" name="check" id="night">
+            <label for="night">
+                <i class="fas fa-moon secondary" id="mood-icon"></i>
+            </label>
+            <i class="fa-solid fa-arrow-right-from-bracket secondary"></i>
+        </div>
+    </aside>
+    <section>
+        <section class="main">
+            <h1>Dashboard</h1>
+            <div class="total-data">
+                <div class="active-tab"> 
+                    <div class="data-icon views">
+                        <i class="fa-solid fa-eye"></i>
+                        <img src="images/pulse-14.svg" alt="svg icon">
+                    </div>
+                    <div>
+                        <p>Total Views</p>
+                        <h1>308.402</h1>
+                        <hr>
+                        <small>Start from 1 Jan 2021</small>
+                    </div>
+                </div>
+                <div class="un-active">
+                    <div class="data-icon products">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <img src="images/pulse-15.svg" alt="svg icon">
+                    </div>
+                    <div>
+                        <p>Total Products</p>
+                        <h1>10.820</h1>
+                        <hr>
+                        <small><a href="www.google.com">+ Add New Product </a></small>
+                    </div>
+                </div>
+                <div class="un-active">
+                    <div class="data-icon user">
+                        <i class="fa-solid fa-user-group"></i>
+                        <img src="images/pulse-16.svg" alt="svg icon">
+                    </div>
+                    <div>
+                        <p>Total Users</p>
+                        <h1>8.425</h1>
+                        <hr>
+                        <small>New User noted every week</small>
+                    </div>
+                </div>
+                <div class="un-active">
+                    <div class="data-icon sells">
+                        <i class="fa-solid fa-shopping-cart"></i>
+                        <img src="images/pulse-16.svg" alt="svg icon">
+                    </div>
+                    <div>
+                        <p>Total Sells</p>
+                        <h1>1.028.623</h1>
+                        <hr>
+                        <small>Start from 1 Jan 2021</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="last-block">
+            <div>
+                <table>
+                    <thead>
+                      <tr>
+                        <th>No</th>
+                        <th>Product Name</th>
+                        <th>Status</th>
+                        <th>Sold</th>
+                        <th>View</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                            <strong>1</strong>
+                            <img src="images/img-2.jpg" alt="product img" width="45px" height="35px">
+                        </td>
+                        <td>News Mobile App UI Kit</td>
+                        <td class="status">Active</td>
+                        <td>10</td>
+                        <td>320</td>
+                      </tr>
+                      <tr>
+                        <td><strong>2</strong>
+                        
+                            <img src="images/img-3.jpg" alt="product img" width="45px" height="35px">
+                        </td>
+                        <td>Summer T-Shirts for Men</td>
+                        <td class="status">Active</td>
+                        <td>320</td>
+                        <td>Red</td>
+                      </tr>
+                      <tr>
+                        <td><strong>3</strong>
+                        
+                            <img src="images/img-4.jpg" alt="product img" width="45px" height="35px"></td>
+                        <td>Startu pillustraion Kit</td>
+                        <td class="status">Active</td>
+                        <td>10</td>
+                        <td>320</td>
+                      </tr>
+                      <tr>
+                        <td><strong>4</strong> 
+                        
+                            <img src="images/img-5.jpeg" alt="product img" width="45px" height="35px"></td>
+                        <td>Doctor Consultant UI Kit</td>
+                        <td class="status">Active</td>
+                        <td>10</td>
+                        <td>320</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <div class="dashboard-detail">
+                <div class="dash-title">
+                    <h3>Views & Sells</h3>
+                    <p>This Week</p>
+                </div>
+                <div class="dashboard">
+                    <div class="views-detail">
+                        <div></div>
+                        <p>Total Views</p>
+                    </div>
+                    <div class="sells-detail">
+                        <div></div>
+                        <p>Total Sells</p>
+                    </div>
+                </div>
+                <img src="images/dash.png" alt="Dashboard" width="95%" height="70%">
+            </div>
+        </section>
+    </section>
+    </main>
+</body>
+</html>
