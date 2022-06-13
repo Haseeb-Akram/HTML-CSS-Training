@@ -1,0 +1,121 @@
+:root {
+    --border-color: #2F2F2F
+}
+body { 
+    background-color: #282828;
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 980px; 
+}
+
+.clock {
+    padding: 20px 20px 20px 20px;
+    height: 250px;
+    width: 250px; 
+    border: 9px solid var(--border-color);
+    border-radius: 50%;
+    box-shadow: 2px 2px 12px 2px black, -2px -2px 12px 2px black, inset 2px 2px 12px black, inset -2px -2px 12px 2px black;
+    position: relative;
+}
+.main {
+    position: absolute;
+    top: 50%;
+    width: 87%;
+    height: 2%;
+    background-color: #4DF3F4;
+}
+.main-count-2 { 
+    transform: rotate(90deg);
+}
+.count {
+    position: absolute;
+    top: 50%;
+    width: 87%;
+    height: 1%;
+    background-color: #B6B5BA;
+}
+.count-1 {
+    transform: rotate(30deg);
+}
+.count-2 {
+    transform: rotate(60deg);
+}
+.count-3 {
+    transform: rotate(120deg);
+}
+.count-4 {
+    transform: rotate(150deg);
+}
+.inner-clock {
+    width: 72%;
+    height: 72%;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: #282828;
+}
+.inner-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: #1d1c1c;
+    box-shadow: 2px 2px 18px 5px black, -2px -2px 18px 5px black;
+}
+.hand { 
+    position: absolute;
+    bottom: 50%;
+    left: 50%; 
+    transform-origin: bottom left; 
+}
+.hand-1 {
+    
+    width: 2px;
+    height: 46%; 
+    background-color: #A97441; 
+    transform: rotate(30deg);
+}
+.hand-2 {
+    width: 5px;
+    height: 30%; 
+    background-color: #67A8F2; 
+    transform: rotate(170deg);
+    border-radius: 5px;
+}
+
+.hand-3 {
+    width: 3px;
+    height: 42%; 
+    background-color: #67A8F2; 
+    transform: rotate(275deg);
+    border-radius: 5px;
+}
+
+.digital {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    width: 350px;
+    height: 100px;
+    border: 9px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px 2px black, -2px -2px 12px 2px black, inset 2px 2px 12px black, inset -2px -2px 12px 2px black;
+}
+.digital h1{
+    color: rgb(155, 153, 153);
+    margin: 0px 5px;
+    font-size: 2.7rem;
+    font-family: monospace;
+}

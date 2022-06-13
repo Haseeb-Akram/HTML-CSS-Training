@@ -1,0 +1,78 @@
+body {
+    height: 200vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px; 
+}
+.main {
+    /* width: 50vw;
+    height: 50vh; */
+    height: 70vh;
+    width: 50vw;
+    background-color: yellow;
+    border: 1px solid blue;
+    /* font-size: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.main-2 { 
+    background-color: rgb(223, 223, 215) !important;
+}
+
+.main-3 { 
+    background-color: rgb(92, 92, 88) !important;
+}
+.main div {
+    margin: 5px;
+}
+.box-1 {
+    width: 20%;
+    height: 20%;
+    background-color: blue;
+   
+}
+.box-2 {
+    width: 20%;
+    height: 20%;
+    background-color: green; 
+    position: relative;
+    top: 113px;
+    left: 18px;
+    /* z-index: -1;  */
+}
+.box-3 {
+    width: 20%;
+    height: 20%;
+    background-color: red;
+}
+
+.box-s {
+    position: sticky !important;
+    top: 110px !important;
+    left: 220px;
+    
+}
+
+.box-a {
+    position: absolute !important;
+    top: 1px;
+
+}
+.box-f {
+    position: fixed !important;
+    top: 1px;
+    left: 50px; 
+}
+
+dt {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 1em 0;
+  }
